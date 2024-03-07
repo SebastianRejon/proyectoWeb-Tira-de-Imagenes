@@ -1,0 +1,37 @@
+:root{
+    --bgGeneral:#D6D7DC;
+    --bgCard: #E9BB9D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: var(--fondo);
+}
+.container{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translatey(calc(20vh / 2));
+    /* background-color: red; */
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    background-color:var(--bgCard);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px rgb(0,0,0, 0.5);
+}
+.card img{
+    width: 100%;
+}
